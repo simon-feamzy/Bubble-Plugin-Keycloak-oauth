@@ -4,9 +4,10 @@
     "authentication_url": "https://keycloak-staging.gcp.feamzy.com/auth/realms/feamzy-realm/protocol/openid-connect/auth",
     "calls": {
     },
+    "email_path": "mail",
     "generate_token_from_code_uri": "https://keycloak-staging.gcp.feamzy.com/auth/realms/feamzy-realm/protocol/openid-connect/token",
     "human": "Keycloak-staging",
-    "id_path": "\\_id",
+    "id_path": "client_id",
     "oauth_user_data_call": "https://keycloak-staging.gcp.feamzy.com/auth/realms/feamzy-realm/protocol/openid-connect/userinfo",
     "scope": "email profile",
     "shared_headers": {
