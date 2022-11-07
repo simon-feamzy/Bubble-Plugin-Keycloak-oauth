@@ -1,14 +1,14 @@
 {
     "add_to_header": true,
     "auth": "oauth2_user",
-    "authentication_url": "https://keycloak-staging.gcp.feamzy.com/auth/realms/feamzy-realm/protocol/openid-connect/auth",
+    "authentication_url": "https://keycloak-xxx.com/auth/realms/default-realm/protocol/openid-connect/auth",
     "calls": {
         "AAF": {
             "headers": {
                 "AAG": {
                     "key": "Authorization",
                     "private": true,
-                    "value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsRTRPaWpQOGxXLW44bFJ4S2stTDZ2WUUtNGVJVUN5UzlCNGdYQ0NLQVJ3In0.eyJleHAiOjE2NjMwNzY4NzcsImlhdCI6MTY2Mjk5MDQ3NywianRpIjoiZDJhNTVjZjItOTk0NS00YjE3LTg0NTAtOGZjOGM0NGZlZmExIiwiaXNzIjoiaHR0cHM6Ly9rZXljbG9hay1zdGFnaW5nLmdjcC5mZWFtenkuY29tL2F1dGgvcmVhbG1zL2ZlYW16eS1yZWFsbSIsInN1YiI6IjI5YzY3Mjk4LWYxNWQtNDcyMi1hOTNhLWIwYTkwODJlZDU2NCIsInR5cCI6IkJlYXJlciIsImF6cCI6ImZlYW16eS13ZWIiLCJzZXNzaW9uX3N0YXRlIjoiMWVkZWFkNDItYTM3MC00OTg1LTk2Y2EtZjA4N2MxOGU2NjQyIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIqIl0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJvZmZsaW5lX2FjY2VzcyIsIkFETUlOIiwiVVNFUiJdfSwic2NvcGUiOiJvcGVuaWQgcHJvZmlsZSBlbWFpbCIsInNpZCI6IjFlZGVhZDQyLWEzNzAtNDk4NS05NmNhLWYwODdjMThlNjY0MiIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiYmFja29mZmljZSIsInByZWZlcnJlZF91c2VybmFtZSI6ImJhY2tvZmZpY2VAZmVhbXp5LmNvbSIsImdpdmVuX25hbWUiOiJiYWNrb2ZmaWNlIiwiZW1haWwiOiJzdXBwb3J0QGZlYW16eS5jb20ifQ.DF5KWQJTy1Yt6qyPsqsG75fAfX6Mpk81m0C1MbrjpUV4f9wqeSL0Ze6LeKIIz-WVXXv7lfpnY9Kl6veVdKH1fbxUa54O3xr9slUelashczpoGraZcaDCZMgEQMcuoRPtHryE-VKy5d56BJQjvDFqSIKl3oz7zAOK-AJgq-hECbfc61aXfzuKvwdWtoYKkntadp3qCzk_aUbEUIZ4tremNGLJXB74Fj4P9tr3rz53-WB_2_jJWTolz3brL_JQoNA58IP5EaMjNKekYXuCPdMIlt_04aydrFxr7o7Vt9NOy8eFa2lk2QmM0SqyedAKX8AhbmEgjgk4hXm-JFcd6IeSUw"
+                    "value": "Bearer xxx"
                 }
             },
             "initialized": true,
@@ -19,14 +19,14 @@
             "ret_value": "api.1662987810275x142258365896589310.plugin_api.AAF",
             "should_reinitialize": true,
             "types": "{\"plugin_api.AAF\":{\"caption\":\"getUserInfo\",\"fields\":{\"_p_sub\":{\"ret_value\":\"text\",\"caption\":\"sub\",\"sample_value\":\"29c67298-f15d-4722-a93a-b0a9082ed564\",\"path\":[\"sub\"]},\"_p_email_verified\":{\"ret_value\":\"boolean\",\"caption\":\"email_verified\",\"sample_value\":true,\"path\":[\"email_verified\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"backoffice\",\"path\":[\"name\"]},\"_p_preferred_username\":{\"ret_value\":\"text\",\"caption\":\"preferred_username\",\"sample_value\":\"backoffice@feamzy.com\",\"path\":[\"preferred_username\"]},\"_p_given_name\":{\"ret_value\":\"text\",\"caption\":\"given_name\",\"sample_value\":\"backoffice\",\"path\":[\"given_name\"]},\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"sample_value\":\"support@feamzy.com\",\"path\":[\"email\"]}}}}",
-            "url": "https://keycloak-staging.gcp.feamzy.com/auth/realms/feamzy-realm/protocol/openid-connect/userinfo"
+            "url": "https://keycloak-xxx.com/auth/realms/default-realm/protocol/openid-connect/userinfo"
         }
     },
     "email_path": "email",
-    "generate_token_from_code_uri": "https://keycloak-staging.gcp.feamzy.com/auth/realms/feamzy-realm/protocol/openid-connect/token",
+    "generate_token_from_code_uri": "https://keycloak-xxx.com/auth/realms/default-realm/protocol/openid-connect/token",
     "human": "Keycloak-staging",
     "id_path": "sub",
-    "oauth_user_data_call": "https://keycloak-staging.gcp.feamzy.com/auth/realms/feamzy-realm/protocol/openid-connect/userinfo",
+    "oauth_user_data_call": "https://keycloak-xxx.com/auth/realms/default-realm/protocol/openid-connect/userinfo",
     "scope": "email profile",
     "shared_headers": {
         "AAC": {
@@ -38,5 +38,5 @@
     },
     "shared_params": {
     },
-    "token_endpoint": "https://keycloak-staging.gcp.feamzy.com/auth/realms/feamzy-realm/protocol/openid-connect/token"
+    "token_endpoint": "https://keycloak-xxx.com/auth/realms/default-realm/protocol/openid-connect/token"
 }
